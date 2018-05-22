@@ -1,0 +1,42 @@
+/*HEADER*/
+
+h1 {
+    margin: 10px;
+    color: white;
+}
+
+/*BACKGROUND*/
+
+body {
+    background: url(sky-normal-web.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.body {
+    text-align: center;
+}
+
+#jsonInfo {
+    margin-top: 15px;
+}
+
+.weekDay {
+    margin-top: 15px;
+}
+
+/*NAV + FOOTER*/
+
+.footer,
+.navbar {
+    background-color: #FF8C00;
+}
+
+/*FOOTER*/
+
+.footer {
+    padding: 5px;
+}
+
+.text-center {
+    color: white;
+}
