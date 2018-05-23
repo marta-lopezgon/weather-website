@@ -11,7 +11,7 @@ $(document).ready(function () {
 
             $.ajax({
                 type: "get",
-                url: 'http://api.openweathermap.org/data/2.5/weather?q=' + city + '&units=metric&APPID=42146b673a6207f1590dc01962ce0703',
+                url: 'https://api.openweathermap.org/data/2.5/weather?q=' + city + '&units=metric&APPID=42146b673a6207f1590dc01962ce0703',
                 "success": function (json_weather) {
                     data = json_weather;
                     var myWeather = data;
@@ -33,7 +33,7 @@ $(document).ready(function () {
             var city = $("#cities").val();
             $.ajax({
                 type: "get",
-                url: 'http://api.openweathermap.org/data/2.5/forecast?q=' + city + '&units=metric&APPID=42146b673a6207f1590dc01962ce0703',
+                url: 'https://api.openweathermap.org/data/2.5/forecast?q=' + city + '&units=metric&APPID=42146b673a6207f1590dc01962ce0703',
                 "success": function (json_weather) {
                     data = json_weather;
                     var myWeather = data;
