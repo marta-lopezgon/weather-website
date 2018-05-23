@@ -1,10 +1,10 @@
 var myWeather = [];
-console.log("carga js");
+console.log("Init");
 //JSON CALL
 
 $(document).ready(function () {
 
-    if (window.location.pathname == "/index.html") {
+    if (window.location.pathname == "/weather-website/" || window.location.pathname == "/weather-website/index.html") {
         console.log("entra en if");
         $('#submitWeather').click(function () {
             var city = $("#cities").val();
@@ -28,7 +28,7 @@ $(document).ready(function () {
 
         })
 
-    } else if (window.location.pathname == "/week_report.html") {
+    } else if (window.location.pathname == "/weather-website/week_report.html") {
         $('#submitWeather').click(function () {
             var city = $("#cities").val();
             $.ajax({
