@@ -1,10 +1,11 @@
 var myWeather = [];
-
-//JSON CALL TO SERVER
+console.log("carga js");
+//JSON CALL
 
 $(document).ready(function () {
 
     if (window.location.pathname == "/index.html") {
+        console.log("entra en if");
         $('#submitWeather').click(function () {
             var city = $("#cities").val();
 
