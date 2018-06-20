@@ -1,11 +1,9 @@
 var myWeather = [];
-console.log("Init");
 //JSON CALL
 
 $(document).ready(function () {
 
     if (window.location.pathname == "/weather-website/" || window.location.pathname == "/weather-website/index.html") {
-        console.log("entra en if");
         $('#submitWeather').click(function () {
             var city = $("#cities").val();
 
